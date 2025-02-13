@@ -1,0 +1,14 @@
+aws_region        = "us-east-1"
+vpc_cidr          = "10.0.0.0/16"
+public_subnets    = ["10.0.1.0/24", "10.0.2.0/24"]
+private_app_subnets = ["10.0.3.0/24", "10.0.4.0/24"]
+private_db_subnets = ["10.0.5.0/24", "10.0.6.0/24"]
+azs               = ["us-east-1a", "us-east-1b"]
+web_ami           = "ami-0c02fb55956c7d316"
+app_ami           = "ami-0c02fb55956c7d316"
+web_instance_type = "t2.micro"
+app_instance_type = "t2.micro"
+db_instance_type  = "db.t2.micro"
+db_name           = "mydb"
+db_username       = "admin"
+db_password       = "securepassword123"
